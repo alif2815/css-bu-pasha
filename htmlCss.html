@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style media="screen">
+        .container{
+        width:60%;
+        height: 200px;
+        overflow: auto;
+        margin-left: 0 auto;
+        }
+        .static{ position: static; border: 2px solid green; }
+        .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;
+        bottom: 0;
+        }
+        .absolute{ position: center; border: 2px solid blue; 
+       left: 20px; bottom: 40px; }
+        .fixed{ position: fixed; border: 2px solid black; bottom: 
+       0; right: 0; }
+        .sticky{
+        position: static;
+        border: 2px solid yellow;
+        top:0;
+        left:20px;
+        background: rgb(0, 115, 255);
+        color:white;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <p class="sticky">
+        Ini merupakan contoh praktikum
+        </p>
+        <p class="static">
+        <b>Ini adalah contoh dari position static</b> <br>
+        Knowledge is an awareness of facts, a familiarity with individuals and situations, or a practical skill. Knowledge of facts, also called propositional knowledge, is often characterized as true belief that is distinct from opinion or guesswork by virtue of justification. While there is wide agreement among philosophers that propositional knowledge is a form of true belief, many controversies focus on justification. This includes questions like how to understand justification, whether it is needed at all, and whether something else besides it is needed. These controversies intensified in the latter half of the 20th century due to a series of thought experiments called Gettier cases that provoked alternative definitions.
+        <p class="relative">
+        <b>Ini adalah contoh dari position relative</b> <br>
+        Knowledge is often understood as a state of an individual person, but it can also refer to a characteristic of a group of people as group knowledge, social knowledge, or collective knowledge.[5] Some social sciences understand knowledge as a broad social phenomenon that is similar to culture.[6] The term may further denote knowledge stored in documents like the "knowledge housed in the library"[7] or the knowledge base of an expert system.[8] Knowledge is closely related to intelligence, but intelligence is more about the ability to acquire, process, and apply information, while knowledge concerns information and skills that a person already possesses
+        <p class="absolute">
+        <b>Ini adalah contoh dari position absolute</b> <br>
+       Halo my name is alif i'm from malang city
+       i'm a 16 years old at the 8 month later i was 17 years  old
+        </p>
+        <p class="fixed">
+        ini merupakan contoh dari position fixed
+</body>
+</html>
